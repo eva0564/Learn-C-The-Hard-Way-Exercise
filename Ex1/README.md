@@ -62,3 +62,5 @@ int main(int argc, char *argv[])
 ```
 ### Run man 3 puts and read about this function and many others.
 > The function puts(const char *s) writes the string s, and a terminating newline character, to the stream stdout, it returns a nonnegative integer on success and EOF on error
+  puts 函数输出时遇到结束符\0时，即结束输出 
+  puts("we are \0champion"); //仅输出we are
