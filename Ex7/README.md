@@ -14,6 +14,7 @@ ex7.c:6:5: warning: format ‘%s’ expects argument of type ‘char *’, but a
      ^
 ```
 It prints `(null)`:
+it should be printf("%s\n",(char *)&nul_byte)
 ```
 $ ./ex7
 (null)
